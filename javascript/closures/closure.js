@@ -7,7 +7,7 @@ var generator = function() {
 };
 
 var g = generator();
-console.log(g());
-console.log(g());
-console.log(g());
-console.log(g());
+console.log(g()); // 10
+console.log(g()); // 20
+console.log(g()); // 30
+console.log(g()); // 40
